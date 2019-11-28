@@ -1,0 +1,19 @@
+{
+  "name": "sandbox",
+  "version": "0.0.0",
+  "description": "Template sandbox environment with a live development server to start developing quick with a basic build",
+  "main": "index.js",
+  "author": "Brion Fuller <blfullerii@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "rollup -cw"
+  },
+  "devDependencies": {
+    "rollup": "^1.27.5",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-livereload": "^1.0.4",
+    "rollup-plugin-serve": "^1.0.1",
+    "rollup-plugin-typescript2": "^0.25.2",
+    "typescript": "^3.7.2"
+  }
+}
