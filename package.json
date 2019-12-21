@@ -10,10 +10,15 @@
   },
   "devDependencies": {
     "rollup": "^1.27.5",
+    "rollup-plugin-esm-import-to-url": "^2.0.0",
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-livereload": "^1.0.4",
     "rollup-plugin-serve": "^1.0.1",
     "rollup-plugin-typescript2": "^0.25.2",
     "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "lit-html": "^1.1.2",
+    "rollup-plugin-unpkg": "^0.0.3"
   }
 }
